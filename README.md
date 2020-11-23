@@ -18,6 +18,7 @@
 <p><strong>&nbsp;</strong></p>
 
 <p><strong>INTRODUCTION</strong></p>
+
 <p>Nothing beats a hearty meal after a hectic day, that is unless it contributes to your waistline. It becomes extremely difficult to keep track of what you eat, when you eat, and where you eat amidst your busy day. We believe this should not be the case, and one should easily and reliably be able to plan their nutrition intake.</p>
 
 <p>Our application is designed to recognize the type of food you are eating simply through an image taken on the phone, approximate the nutrition and quantity of said food, and keep track of it. Furthermore, it will recommend foods that it finds deficient based on your history/habit and your selected preference.</p>
@@ -25,6 +26,7 @@
 <p>For example, if you have been eating solely vegetables the past week and your selected preference is “Gain Muscles”, it will recommend high protein meals as your next goals. Moreover, it will also have GPS integration that will be able to recognize the current restaurant you are at when you go outside, and quickly pull down any relevant information regarding the type of cuisine, suggested menu items, nutrition etc.</p>
 
 <p><strong>Social Impact</strong></p>
+
 <p>Our application attempts to do away with the cumbersome process of manually tracking your food habits. This frees up the busy schedule of a user. Nutrition information can also be very dense and requires some scientific background to interpret. By automating this process, we give the user an accessible way of following good food habits.</p>
 
 <p>Could there be any unintended consequences? Possibly. It might accidentally cause our users to overestimate their confidence in their diet and thus forgo any medical advice from professionals. We will combat this by explicitly stating that this app is simply a guideline, NOT a definite replacement for medical advice.
@@ -34,28 +36,18 @@
 </p>
 
 <p><strong>Features</strong></p>
-<ul>
-  <li>Federated identity - any one of Google, Facebook, Twitter etc. can be used to sign-up
-</li>
-  <li>User account to store user information such as all the meals taken past month and nutrition count.
-</li>
-  <li>Ability to choose multiple goals - users can choose between options such as “Gain Muscles”, “Lose Weight”, “Increase Calcium”, “Increase B Complex”, and  “Heart Healthy”.
-</li>
-  <li>Ability to upload image and weight of food from which our app automatically builds a nutrition profile of the meal.
-</li>
-  <li>Ability to track and see progress
-</li>
-  <li>Ability to upgrade to a Pro account that will give access to advanced user statistics.
-</li>
-  <li>Ability to recognize restaurants based on GPS location.
-</li>
-  <li>Ability to suggest/recommend meals based on cuisine preferences and selected goals.
-</li>
-  <li>Planning features such as a to-do list, event calendars etc.
-</li>
-  <li>Companion website.
-</li>
-</ul>
+    <ul>
+      <li>Federated identity - any one of Google, Facebook, Twitter etc. can be used to sign-up</li>
+      <li>User account to store user information such as all the meals taken past month and nutrition count.</li>
+      <li>Ability to choose multiple goals - users can choose between options such as “Gain Muscles”, “Lose Weight”, “Increase Calcium”, “Increase B Complex”, and “Heart Healthy”.</li>
+      <li>Ability to upload image and weight of food from which our app automatically builds a nutrition profile of the meal.</li>
+      <li>Ability to track and see progress.</li>
+      <li>Ability to upgrade to a Pro account that will give access to advanced user statistics.</li>
+      <li>Ability to recognize restaurants based on GPS location.</li>
+      <li>Ability to suggest/recommend meals based on cuisine preferences and selected goals.</li>
+      <li>Planning features such as a to-do list, event calendars etc.</li>
+      <li>Companion website.</li>
+    </ul>
 
 <p><strong>Technology</strong></p>
 <p>I hope to make this project multiplatform. Thus I will be using the following technologies. However much of these are tentative and subject to change.

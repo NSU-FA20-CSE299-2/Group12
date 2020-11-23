@@ -50,33 +50,33 @@
     </ul>
 
 <p><strong>Technology</strong></p>
-<p>I hope to make this project multiplatform. Thus I will be using the following technologies. However much of these are tentative and subject to change.
-</p>
+
+<p>I hope to make this project multiplatform. Thus I will be using the following technologies. However much of these are tentative and subject to change.</p>
 
 <p><i>Website Frontend</i></p>
   <ul>
-  <li>HTML</li>
-  <li>CSS (Bootstrap Framework)</li>
-  <li>Javascript</li>
+    <li>HTML</li>
+    <li>CSS (Bootstrap Framework)</li>
+    <li>Javascript</li>
   </ul>
  
  <p><i>Android Frontend</i></p>
   <ul>
-  <li>Java Android Studio</li>
+    <li>Java Android Studio</li>
   </ul>
  
-  <p><i>Backend</i></p>
+ <p><i>Backend</i></p>
   <ul>
-  <li>Python</li>
-  <li>Database will be done in Django</li>
+    <li>Python</li>
+    <li>Database will be done in Django</li>
   </ul>
   
 <p><i>API's and Additional Technologies</i></p>
   <ul>
-  <li>Google Cloud Vision API</li>
-  <li>Nutritionix API</li>
+    <li>Google Cloud Vision API</li>
+    <li>Nutritionix API</li>
   </ul>
 
 <p><strong>Monetization</strong></p>
-<p>This will be a freemium product. We will allow the user to upgrade to a Pro account that will permit them to view advanced statistics and patterns in their food habits.
-</p>
+
+<p>This will be a freemium product. We will allow the user to upgrade to a Pro account that will permit them to view advanced statistics and patterns in their food habits.</p>

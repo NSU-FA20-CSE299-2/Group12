@@ -1,3 +1,5 @@
-#Project Proposal
+# Project Proposal
 
-This is an example.
+<p>
+  This is an example.
+</p>

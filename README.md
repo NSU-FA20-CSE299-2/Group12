@@ -1,10 +1,3 @@
-<html>
-    <head>
-        <title>Project Proposal</title>
-    </head>
+#Project Proposal
 
-    <body style="text-align:center">
-        <p>Hello world</p>
-    </body>
-
-</html>
+This is an example.

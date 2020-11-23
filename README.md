@@ -1,3 +1,5 @@
 # Project Proposal
 
-<center> Centered text</center>
+<div style="text-align:center">
+  Helloworld
+</div>

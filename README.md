@@ -1,2 +1,10 @@
-# Group12
-1731008
+<html>
+    <head>
+        <title>Project Proposal</title>
+    </head>
+
+    <body style="text-align:center">
+        <p>Hello world</p>
+    </body>
+
+</html>

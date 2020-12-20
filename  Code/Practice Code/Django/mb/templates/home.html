@@ -3,7 +3,7 @@
 <h1>Message Board homepage</h1>
 
 <ul>
-    {% for post in object_list %}
+    {% for post in all_posts %}
     <li>{{ post.text }}</li>
     {% endfor %}
 </ul>

@@ -29,7 +29,7 @@ a, a:hover, a:focus{
     min-width:250px;
     max-width:250px;
     min-height: 100vh;
-    background:#7386D5;
+    background: #8510d8;
     color: #fff;
     transition: all 0.3s;
 }
@@ -54,4 +54,36 @@ a, a:hover, a:focus{
     font-size: 1.1em;
     display: block;
     color: #fff;
+}
+
+#sidebar ul li a:hover{
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"]{
+    color: #fff;
+    background: #ba8cd7;
+}
+
+ul ul a {
+    font-size: 0.9em;
+    padding-left: 30px;
+    background: #8510d8;
+}
+
+#sidebar.active{
+    margin-left: -250px
+}
+
+a[data-toggle="collapse"]{
+    position: relative;
+}
+
+.dropdown-toggle::after{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%)
 }

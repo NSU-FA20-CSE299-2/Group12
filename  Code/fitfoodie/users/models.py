@@ -6,3 +6,8 @@ from django.contrib.auth.models import AbstractUser
 
 class Profile(AbstractUser):
     age = models.PositiveIntegerField()
+    weight = models.PositiveIntegerField()
+    height = models.PositiveIntegerField()
+    bmi = models.PositiveIntegerField()
+
+

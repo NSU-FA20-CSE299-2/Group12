@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import DetailView, CreateView, TemplateView
+from django.views.generic import DetailView, CreateView, TemplateView, UpdateView
 from django.urls import reverse_lazy
 
 from .forms import ProfileCreationForm
@@ -27,3 +27,9 @@ class RegistrationView(CreateView):
 class RegisterSuccessView(TemplateView):
     template_name = 'register_success.html'
 
+
+class EditView(UpdateView):
+    model = Profile
+    fields = ('age', 'weight', 'height')
+    template_name = 'edit_view.html'
+    success_url = reverse_lazy('home')

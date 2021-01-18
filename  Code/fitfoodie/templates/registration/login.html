@@ -16,7 +16,7 @@
             <h5>Log In</h5>
             <form method="POST">
                 {% csrf_token %}
-                {{ form|crispy}}
+                {{ form|crispy }}
                 <button class="btn btn-primary" type="submit">Submit</button>
             </form>
         </div>

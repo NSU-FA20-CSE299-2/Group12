@@ -26,3 +26,4 @@ class RegistrationView(CreateView):
 
 class RegisterSuccessView(TemplateView):
     template_name = 'register_success.html'
+

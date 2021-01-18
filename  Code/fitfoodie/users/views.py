@@ -24,3 +24,5 @@ class RegistrationView(CreateView):
     success_url = reverse_lazy('register_success')
 
 
+class RegisterSuccessView(TemplateView):
+    template_name = 'register_success.html'

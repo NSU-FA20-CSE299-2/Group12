@@ -64,24 +64,12 @@ a, a:hover, a:focus{
     background: #fff;
 }
 
-#sidebar ul li.active > a, a[aria-expanded="true"]{
-    color: #fff;
-    background: #ba8cd7;
-}
-
 ul ul a {
     font-size: 0.9em;
     padding-left: 30px;
     background: #8510d8;
 }
 
-#sidebar.active{
-    margin-left: -250px
-}
-
-a[data-toggle="collapse"]{
-    position: relative;
-}
 
 .dropdown-toggle::after{
     display: block;
@@ -92,7 +80,7 @@ a[data-toggle="collapse"]{
 }
 
 #content{
-    background-color: #fff0f2;
+    background-color: #e8f4f8;
     width: 100%;
     margin-right: 0px;
     margin-left: 0px;
@@ -104,54 +92,4 @@ a[data-toggle="collapse"]{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 5px 0px grey;
-}
-
-
-.t3 {
-    font-family:'Satisfy', cursive;
-    font-size: 3em;
-    font-weight: 800;
-    line-height: 1.7em;
-    color: white;
-    }
-
-
-
-/* commment display styling starts here */
-
-.comment-content {
-    white-space: pre-line;
-}
-
-.comment-img {
-    height: 65px;
-    width: 65px;
-    margin-right: 16px;
-}
-
-.comment-metadata {
-    padding-bottom: 1px;
-    margin-bottom: 4px;
-    border-bottom: 1px solid #e3e3e3
-}
-
-.comment-metadata a:hover {
-    color: #333;
-    text-decoration: none;
-}
-
-.comment-svg {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-}
-
-.shadow {
-    width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-  }
-
-div.container {
-    padding: 10px;
 }

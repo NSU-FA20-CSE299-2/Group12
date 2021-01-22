@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import DetailView, CreateView, TemplateView, UpdateView
 from django.urls import reverse_lazy
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .forms import ProfileCreationForm
 from .models import Profile
@@ -8,11 +9,15 @@ from .models import Profile
 # Create your views here.
 
 
-class HomePageView(TemplateView):
+class HomePageView(LoginRequiredMixin, TemplateView):
+    login_url = reverse_lazy('login')
+
     template_name = 'home.html'
 
 
-class ProfileView(DetailView):
+class ProfileView(LoginRequiredMixin, DetailView):
+    login_url = reverse_lazy('login')
+
     model = Profile
     template_name = 'profile.html'
 
@@ -28,7 +33,9 @@ class RegisterSuccessView(TemplateView):
     template_name = 'register_success.html'
 
 
-class EditView(UpdateView):
+class EditView(LoginRequiredMixin, UpdateView):
+    login_url = reverse_lazy('login')
+
     model = Profile
     fields = ('age', 'weight', 'height')
     template_name = 'edit_view.html'
